@@ -1,8 +1,8 @@
 # cintel-01-interactive
 
-# Histogram Plotter
+# Plotter
 
-This Python script generates a histogram plot using matplotlib and shiny.express libraries.
+This Python script generates a histogram plot and a scatter plot using matplotlib and shiny.express libraries.
 
 ## Usage
 
