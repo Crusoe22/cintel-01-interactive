@@ -14,3 +14,14 @@ def histogram():
     plt.title('Histogram of Random Data')  # Added title to the histogram
     plt.xlabel('Value')
     plt.ylabel('Density')
+
+# Function to generate a scatter plot
+@render.plot(alt="Scatter plot")
+def scatter_plot():
+    np.random.seed(12345)
+    x = np.random.normal(0, 1, 1000)
+    y = np.random.normal(0, 1, 1000)
+    plt.scatter(x, y, alpha=0.5)
+    plt.title('Scatter Plot')
+    plt.xlabel('X')
+    plt.ylabel('Y')
